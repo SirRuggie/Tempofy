@@ -12,6 +12,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 *.env
+# Expo environment
+.env.expo
+.env.development
+.env.production
 
 # OS generated files
 .DS_Store
