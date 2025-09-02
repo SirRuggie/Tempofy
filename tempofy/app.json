@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Tempofy",
+    "slug": "tempofy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "description": "The ADHD Productivity Orchestra - Working at Your Tempo",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f8f4f0"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tempofy.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Tempofy needs microphone access to capture your voice notes and thoughts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f8f4f0"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.tempofy.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "tempofy-orchestra"
+      }
+    }
+  }
+}
